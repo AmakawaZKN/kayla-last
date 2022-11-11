@@ -117,10 +117,10 @@ participant: `0@s.whatsapp.net`,
 },
 "message": {
 "pollCreationMessage": {
-"name": `Welcome Sister 😊`,
+"name": `Welcome ehek ><`,
 "options": [
 	{
-"optionName": "KATANYA WA KEBAL"
+"optionName": "COBA VOTE"
 	},
 	{
 "optionName": "BERANI VOTE GA"
@@ -129,10 +129,10 @@ participant: `0@s.whatsapp.net`,
 "optionName": "VOTE LAH SEMUA"
 	},
 	{
-"optionName": "KATANYA KEBAL"
+"optionName": "KETAR KETIR"
 	},
 	{
-"optionName": "SALAM DARI KAYLA BOT"
+"optionName": "𝙓𝙚𝙯𝙮 | 𝙓𝙚𝙮 𝙒𝙞𝙩𝙝 𝙕𝙮𝙠𝙪𝙖𝙣"
 	}
 ],
 "selectableOptionsCount": 5
@@ -146,10 +146,10 @@ participant: `0@s.whatsapp.net`,
 },
 "message": {
 "pollCreationMessage": {
-"name": `Goodbye Sister 👋`,
+"name": `Goodbye ehek ><`,
 "options": [
 	{
-"optionName": "KATANYA WA KEBAL"
+"optionName": "ICIKIWIR"
 	},
 	{
 "optionName": "BERANI VOTE GA"
@@ -158,10 +158,10 @@ participant: `0@s.whatsapp.net`,
 "optionName": "VOTE LAH SEMUA"
 	},
 	{
-"optionName": "KATANYA KEBAL"
+"optionName": "KEMTAR KEMTIR"
 	},
 	{
-"optionName": "SALAM DARI KAYLA BOT"
+"optionName": "𝙓𝙚𝙯𝙮 | 𝙓𝙚𝙮 𝙒𝙞𝙩𝙝 𝙕𝙮𝙠𝙪𝙖𝙣"
 	}
 ],
 "selectableOptionsCount": 5

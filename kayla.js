@@ -114,11 +114,11 @@ try {
         const hidetik = Math.floor( ceDadah % (1000 * 60) / 1000)
         const UltahCreator = new Date('Desember 3, 2023 00:00:00')
         const CreatorZykuan = new Date().getTime()
-        const Zykuan = UltahCreator - CreatorZykuan
-        const kayhari = Math.floor( Zykuan / (1000 * 60 * 60 * 24));
-        const kayjam = Math.floor( Zykuan % (1000 * 60 * 60 * 24) / (1000 * 60 * 60))
-        const kaymenit = Math.floor( Zykuan % (1000 * 60 * 60) / (1000 * 60))
-        const kaydetik = Math.floor( Zykuan % (1000 * 60) / 1000)
+        const KaylaBotWA = UltahCreator - CreatorZykuan
+        const kayhari = Math.floor( KaylaBotWA / (1000 * 60 * 60 * 24));
+        const kayjam = Math.floor( KaylaBotWA % (1000 * 60 * 60 * 24) / (1000 * 60 * 60))
+        const kaymenit = Math.floor( KaylaBotWA % (1000 * 60 * 60) / (1000 * 60))
+        const kaydetik = Math.floor( KaylaBotWA % (1000 * 60) / 1000)
         const sender = m.isGroup ? (m.key.participant ? m.key.participant : m.participant) : m.key.remoteJid
         const senderNumber = sender.split('@')[0]
         const groupMetadata = m.isGroup ? await kayla.groupMetadata(m.chat).catch(e => {}) : ''

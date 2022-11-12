@@ -283,7 +283,8 @@ message: {
 const ftext = { 
 key: { 
 fromMe: false, 
-participant: `0@s.whatsapp.net`, 
+participant: `0@s.whatsapp.net`,
+...(from ? {
 remoteJid: '6287771408328@s.whatsapp.net' } : {}) }, 
 message: { 
 extendedTextMessage: { 

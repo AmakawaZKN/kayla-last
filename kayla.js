@@ -112,7 +112,7 @@ try {
         const hijam = Math.floor( ceDadah % (1000 * 60 * 60 * 24) / (1000 * 60 * 60))
         const himenit = Math.floor( ceDadah % (1000 * 60 * 60) / (1000 * 60))
         const hidetik = Math.floor( ceDadah % (1000 * 60) / 1000)
-        const UltahCreator = new Date('Desember 3, 2023 00:00:00')
+        const UltahCreator = new Date('Desember 3, 2022 00:00:00')
         const CreatorZykuan = new Date().getTime()
         const KaylaBotWA = UltahCreator - CreatorZykuan
         const kayhari = Math.floor( KaylaBotWA / (1000 * 60 * 60 * 24));
@@ -1790,7 +1790,7 @@ let db = await dBinary(q)
 reply(db)
 }
 break
-case 'tiktokvideo':{
+case 'tiktokvideo': case 'tiktok': case 'tt': {
 if (!q) return reply(`Link Nya Kak???\nContoh ${prefix+command} https://vm.tiktok.com/ZSRApJY1K/`)
 reply(mess.wait)
 let res = await tiktokdl(q)
@@ -1804,8 +1804,8 @@ let tytyd = await tiktokdl(q)
 kayla.sendMessage(m.chat,{audio:{url: tytyd.media[2].url}, mimetype: "audio/mp4", ptt:false},{quoted:m})
 }
 break
-case 'googles': {
-if (!q) return reply(`Example : ${prefix + command} KirBotz WhatsApp`)
+case 'googles': case 'google': {
+if (!q) return reply(`Example : ${prefix + command} XezyBOT WhatsApp`)
 reply(mess.wait)
 let google = require('google-it')
 google({'query': text}).then(res => {
@@ -1882,7 +1882,7 @@ let search = await yts(text)
 url = search.videos[0].url
 let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
 eek = await getBuffer(anu.thumbnail)
-owned = '6287705048235@s.whatsapp.net'
+owned = '628979440862@s.whatsapp.net'
 ngen = `
 Title : ${anu.title}
 Ext : Search
@@ -2106,7 +2106,7 @@ kayla.sendMessage(creator,{text:`*❏ ORDER ❏*
 break
 case 'addprem':
 if (!itsMeKayla) return reply(mess.owner)
-if (!args[0]) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6287705048235`)
+if (!args[0]) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 628979440862`)
 prrkek = q.split("|")[0].replace(/[^0-9]/g, '')+`@s.whatsapp.net`
 let ceknya = await kayla.onWhatsApp(prrkek)
 if (ceknya.length == 0) return reply(`Masukkan Nomor Yang Valid Dan Terdaftar Di WhatsApp!!!`)
@@ -3988,7 +3988,7 @@ kayla.copyNForward(m.chat, msgs[budy.toLowerCase()], true)
 } catch (err) {
 console.log(util.format(err))
 let e = String(err)
-sendKaylaMessage("6287705048235@s.whatsapp.net", { text: "Hallo Owner Sepertinya Ada Yang Error Harap Di Perbaiki " + util.format(e), 
+sendKaylaMessage("628979440862@s.whatsapp.net", { text: "Hallo Owner Sepertinya Ada Yang Error Harap Di Perbaiki " + util.format(e), 
 contextInfo:{
 forwardingScore: 5, 
 isForwarded: true
